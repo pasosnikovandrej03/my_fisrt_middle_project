@@ -1,0 +1,5 @@
+# Игнорирование настроек PyCharm
+.idea/
+*.iml
+.venv/
+*.venv
