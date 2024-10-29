@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c6b29e-312f-4936-8d83-1aa8346e9b89" name="Changes" comment="" />
+    <list default="true" id="c2c6b29e-312f-4936-8d83-1aa8346e9b89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/myblog/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/blog/post/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/blog/post/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,15 +40,21 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2o7NDtxl8JSEb5Z6U9CVx31sgTn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -66,6 +98,9 @@
       <updated>1730216537220</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
