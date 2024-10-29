@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+
+{% block title %}Поділитися дописом{% endblock %}
+
+{% block content %}
+    {% if sent %}
+        <h1>Електронний лист</h1>
+        <p>"{{ post.title }}" успішно відправлено на {{ form.cleaned_data.to }}.</p>
+    {% else %}
+        <h1>Поділитися "{{ post.title }}" електронною поштою</h1>
+        <form method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" value="Надіслати електронний лист">
+        </form>
+    {% endif %}
+{% endblock %}

@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "blog/base.html" %}
 
-</body>
-</html>
+{% block title %}{{ post.title }}{% endblock %}
+{% block content %}
+    <h1>{{ post.title }}</h1>
+    <p class="date">
+        Published {{ post.publish }} by {{ post.author }}
+    </p>
+    <p>{{ post.body|linebreaks }}</p>
+    <p>
+        <a href="{% url 'blog:post_share' post.id %}">
+            Поділитися
+        </a>
+    </p>
+    {% with comments.count as total_comments %}
+    	<h2>{{ total_comments }} коментар{{ total_comments|pluralize }}</h2>
+    {% endwith %}
+
+    {% for comment in comments %}
+        <div class="comment">
+            <p class="info">Коментар {{ forloop.counter }} від {{ comment.name }} на {{ comment.created }}</p>
+            <p>{{ comment.body|linebreaks }}</p>
+        </div>
+    {% empty %}
+        <p>Немає коментарів.</p>
+    {% endfor %}
+
+    {% include "blog/post/includes/comment_form.html" %}
+{% endblock %}
